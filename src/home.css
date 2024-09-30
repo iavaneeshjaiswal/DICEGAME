@@ -1,0 +1,57 @@
+.main {
+    width: 100%;
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 {
+    background-image: url("./assets/images/dicehome.png");
+    width: 40%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.menu {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.menu>h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu button {
+    cursor: pointer;
+    padding: 7px 60px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(255, 246, 246);
+    background-color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: color 0.8s ease, background-color 0.8s ease;
+    -webkit-transition: color 0.8s ease, background-color 0.8s ease;
+    -moz-transition: color 0.8s ease, background-color 0.8s ease;
+    -ms-transition: color 0.8s ease, background-color 0.8s ease;
+    -o-transition: color 0.8s ease, background-color 0.8s ease;
+}
+
+.menu button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 122, 122);
+}

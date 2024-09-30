@@ -1,0 +1,12 @@
+.dice {
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+}
+
+.diceImg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
